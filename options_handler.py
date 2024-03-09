@@ -33,7 +33,7 @@ class OptionsHandler:
                 return 3, answers['options']
 
             else:
-                raise ValueError('Invalid Options')
+                raise ValueError('Opção inválida.')
 
         except KeyboardInterrupt:
             print('[+] App Aborted!')

@@ -10,4 +10,4 @@ class HtmlHandler:
         div_header_text = soup.find('div', class_='header-text')
         db_informations = div_header_text.find_next('p')
 
-        return db_informations.text if db_informations else 'Nenhuma informação encontrada!'
+        return db_informations.text if db_informations else 'Nenhuma informação foi encontrada!'
